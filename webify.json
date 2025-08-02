@@ -1,0 +1,13 @@
+{
+  "build": {
+    "command": "pnpm build",
+    "outputDir": "dist",
+    "installCommand": "pnpm install"
+  },
+  "routes": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}
